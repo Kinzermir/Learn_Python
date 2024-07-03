@@ -1,0 +1,19 @@
+# for class 3 just write mypy in requirements.txt file and don't install anything, just run code.
+# then to get the data from w3 school website just to convenient the code so we write this
+# import pandas as pd
+# table = pd.read_html('https://www.w3schools.com/python/python_operators.asp')
+# table[0]
+# after playing this we get No module named 'pandas' it means no panda dependency is installed. 
+# for installation write this pip install pandas in terminal from this you get installation if won't get install you can follow this method, given below
+#       OR
+# !pip install pandas               # it means !pip you can pass command in jyputer notebook instead of terminal.
+# import pandas as pd
+# table = pd.read_html('https://www.w3schools.com/python/python_operators.asp')
+# table[0]
+# paste this in jyputer notebook        
+
+# Later when you click on play button you get Use pip or conda to install lxml.
+# for this write conda intall lxml in terminal.
+# from this you will get the table whcih link we have pasted.
+
+# you can write pandas and lxml in requirements.txt file as we wrote mypy package.
