@@ -1,0 +1,46 @@
+# To use Python and manage its packages efficiently, you can install Anaconda, that comes with backend dependencies/packages, environment path 
+# python is dynamic coding that's why it's not mentioned error.
+# you can follow panaverse github python hello world  
+# Go to anoconda prompt from window search option
+# cd krke folder me jou ex C:\Users\Dell1 cd piaic then cd Python cd class_01
+# 1. In anoconda prompt write:- python --version
+# 2. then in prompt write python form this you get assurity that of interpretor,
+# interpretor means line by line code excecute hona.
+# 3 then write print("kinzer") you will get kinzer in python print works as console log("")
+# 4. then in terminal write exit()
+# 5. d: // it means save folder from Local Disk C to Local Disk D
+# 5. then mkdir class_01   //mkdir is used for making folder under the name class_01
+# 6. then cd class_1 // to go in the folder we used cd 
+# 7. code . 
+# 8. in vs code in class_1 create file under the name class.py
+# 9. in class.py write print("hello world")
+# 10.Then again go to anaconda promt and write python class.py // when i'll write python it means we are telling to our computer to activate python interpretor
+# when you make class.py file in vs code you find recommendation of python extension if didn't then install it
+# print("hello world")
+# print("hello world") to run this in terminal we have button on top right corner of vs code named run python file.
+# then we use Jupyter Notebook extension to apply this extension make another file under the name class.ipynb
+# then in class.ipynb file you have Markdown text box it is used for understanding of code such as i wrote in Markdown text box:- #Iam ready to instal python then click on tick option from this we will get Heading
+# then open code text box and write print("hello world") then click on right side button after click you get option of install jupyter extension. Later click on top right base and select on environment and in that select python
+#The benefit of using Jupyter Notebook extensions is that they allow you to execute code in chunks, which saves time. For instance, if you write and run multiple print statements like print("hello world") ten times in a class.py file, it might take more time to execute and manage. In a class.ipynb, you can easily run each text box.
+# In nextjs project we have package.json file which tells us package installed and thier version similarly in python we have 
+# virtual environment in anaconda promt
+# create a new Conda environment:- for that write below code in terminal
+# conda create -n python12 python==3.12.4 -y  // means create conda karo -n mtlb under the name python12 and python version and -y means by default yes krdo taake run krdo
+#  above python12 is the virtual environment name shown in terminal and virtuall enverionment file name in vs code is requirement.txt
+# then for changing the name of (base) with python12 in terminal for that 
+# write python activate python12
+# create requirements.txt for packages and in that write packages name which are
+# numpy
+# pandas
+# jupyter
+# mypy    // here we are not writing thier versions bec this is the method to intall latest version, form this we will get latest versions.
+# then in terminal paste 
+# pip install -r requirements.txt   // requirements.txt is the file name go with convention
+# above we made python12 virtual environment in terminal and then we have activate it and the base name changed to python12 but now in vscode activate the virtual environment under the name python12 go to 
+# class.ipynb ye file pr ja kr right bottom pr click kro 3.11.7 pr click kro and python12 select kro then click on play button which is on top right side and the terminal will open in python instead cmd or power shell
+# package.json file ke bajai hum yaha requirment.txt banainge 
+# It allows you to manage dependencies for different projects independently. This means you can have different versions of packages for different projects without conflict.means diff project ke lie diff envronment hoga
+# for Type checking for Python using mypy you must install mypy extension
+# name1 : str = 987  
+# print(name) 
+# after that write in terminal mypy class.py to check the error
